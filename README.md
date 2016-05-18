@@ -2,7 +2,7 @@
 
 This is a port of the amazing [Savage Electronics](http://savageelectronics.blogspot.com.es/2011/01/arduino-y-dynamixel-ax-12.html) Arduino library for controlling [Dynamixel AX-12](http://support.robotis.com/en/product/dynamixel/ax_series/dxl_ax_actuator.htm) servomotors with the [Particle Photon](https://www.particle.io/).
 
-No external electronics are required since the TTL Half-Duplex support is archived on [software](https://docs.particle.io/reference/firmware/photon/#halfduplex-).
+No external electronics are required since the TTL Half-Duplex support is achieved on [software](https://docs.particle.io/reference/firmware/photon/#halfduplex-).
 
 You can find the API documentation [here](http://austinlpalmer.com/Projects/Documentr/#/home).
 
@@ -42,10 +42,12 @@ void loop(){
 
 Dynamixel Half Duplex USART Comunication
 Copyright (c) 2011 Savage Electronics.
+
 Created by Savage on 27/01/11.
 
 Dynamixel Half Duplex USART Comunication for Particle
 Copyright (c) 2016 Pral2a - Fab Lab Barcelona.
+
 Particle Port by Pral2a on 18/05/16.
 
 This library is free software; you can redistribute it and/or modify it under the terms of the GNU Lesser General Public License as published by the Free Software Foundation; either version 2.1 of the License, or (at your option) any later version.
